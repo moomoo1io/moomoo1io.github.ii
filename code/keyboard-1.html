@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Коды клавишь</title>
+</head>
+<body>
+	<h1>Нажмите на клавишу...</h1>
+	<p></p>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script>
+    $("body").keydown(function (event) {
+      console.log(event.keyCode);
+      alert("Код клавиши: " + event.keyCode + "!");
+    });
+    console.log("-1. Всеволод html");
+	  for (var i = 0; i < 10; i++) {
+	    console.log(i + ". Всеволод html");
+	  }
+    </script>
+</body>
+</html>
