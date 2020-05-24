@@ -113,4 +113,7 @@ h2.funny-title{border-top:5px solid #E0DBDE;border-bottom:5px solid #E0DBDE;font
     .id {
         display: none;
     }
+    h2 {
+        display: none;
+    }
 }
